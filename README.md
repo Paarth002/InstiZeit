@@ -52,7 +52,7 @@ Running on localhost:<br/>
 • Create Virtual Environment and install required libraries
 using:<br/>
 • pip install -r requirements.txt<br/>
-• Send request for .env file containing API keys 
+• Send request for .env file containing API keys <br/>
 • To run application: Use python run.py
 
 Developed in collaboration with Nishchay Shroff, Mir Razee Mohideen and Nischit Hosamani 
