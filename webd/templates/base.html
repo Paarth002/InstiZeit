@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>
+        {% block title %}
+
+        {% endblock %}
+    </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+
+<body class="w3-theme-l5">
+  <nav>
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+    {% block nav %}
+
+    {% endblock %}
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="{{url_for('home')}}" class="w3-bar-item w3-button w3-padding-large ">
+      <img src="static/pics/Logo.png" style="height:33px;width:33px" class="w3-circle">
+      InstiZeit
+  </a>
+  <a href="{{url_for('addfr')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Add Friends"><i class="fa fa-user"></i></a>
+  <a href="{{url_for('msg')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
+
+  <a href="{{url_for('logout')}}" class="w3-bar-item w3-button w3-right w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-logout">LogOut</i></a>
+  <a href="{{url_for('profile')}}" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Profile">
+    <img src="{{usrimg}}" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+  </a>
+ </div>
+</div>
+</nav>
+    {% block content %}
+
+    {% endblock %}
+
+</body>
+
+</html>
