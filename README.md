@@ -48,7 +48,7 @@ Google Drive API for uploading and accessing media files<br/><br/>
 Hosted website: http://instimeet-env.eba-f3my7frm.ap-south-1.elasticbeanstalk.com/<br/>
 (Hosted Website may crash due to Server Overload or Connection Timeout. Currently working on resolving these issues)
 
-Running on localhost:
+Running on localhost:<br/>
 • Create Virtual Environment and install required libraries
 using:<br/>
 • pip install -r requirements.txt<br/>
