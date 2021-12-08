@@ -14,21 +14,7 @@ Database<br/>
 API: Google O-Auth API for Sign-In and User Verification<br/>
 Google Drive API for uploading and accessing media files<br/><br/>
 
-Commands for running code:<br/>
-• Create Virtual Environment and install required libraries
-using:<br/>
-• pip install -r requirements.txt<br/>
-• To run application: Use python run.py<br/>
-• We have included .env file which contains passwords and
-API keys needed for running program.<br/>
-• In .env file DATABASE_PASSWORD connects to remote
-database.<br/>
-• You can also connect to local database. To do this, create a
-new local database and add tables using tables.sql file.
-And change DATABASE_PASSWORD accordingly<br/><br/>
 
-Hosted website: http://instimeet-env.eba-f3my7frm.ap-south-1.elasticbeanstalk.com/<br/>
-Github Link: https://github.com/Mir-Razee/InstiZeit<br/>
 
 <p align="center">
   Landing Page
@@ -57,6 +43,17 @@ Github Link: https://github.com/Mir-Razee/InstiZeit<br/>
 <p align="center">
   <img src="media/friend_req.png" width="50%" title="1">
 </p><br/><br/>
+
+
+Hosted website: http://instimeet-env.eba-f3my7frm.ap-south-1.elasticbeanstalk.com/<br/>
+(Hosted Website may crash due to Server Overload or Connection Timeout. Currently working on resolving these issues)
+
+Running on localhost:
+• Create Virtual Environment and install required libraries
+using:<br/>
+• pip install -r requirements.txt<br/>
+• Send request for .env file containing API keys 
+• To run application: Use python run.py
 
 Developed in collaboration with Nishchay Shroff, Mir Razee Mohideen and Nischit Hosamani 
 
