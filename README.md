@@ -27,8 +27,7 @@ database.<br/>
 new local database and add tables using tables.sql file.
 And change DATABASE_PASSWORD accordingly<br/><br/>
 
-Hosted website: http://instimeet-env.eba-f3my7frm.ap-south-
-1.elasticbeanstalk.com/<br/>
+Hosted website: http://instimeet-env.eba-f3my7frm.ap-south-1.elasticbeanstalk.com/<br/>
 Github Link: https://github.com/Mir-Razee/InstiZeit<br/>
 
 <p align="center">
