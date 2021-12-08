@@ -59,9 +59,5 @@ Github Link: https://github.com/Mir-Razee/InstiZeit<br/>
   <img src="media/friend_req.png" width="50%" title="1">
 </p><br/><br/>
 
-Developed by:<br/>
-Bhore Parth Shirish<br/>
-Nishchay Shroff<br/>
-Nischit Hosamani<br/>
-Mir Razee Mohideen<br/>
+Developed in collaboration with Nishchay Shroff, Mir Razee Mohideen and Nischit Hosamani 
 
